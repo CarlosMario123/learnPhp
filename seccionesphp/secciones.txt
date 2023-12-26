@@ -1,0 +1,13 @@
+En PHP, las sesiones son una forma de mantener la información del usuario a lo largo de múltiples páginas web o interacciones dentro de un sitio web. Permiten almacenar variables específicas de usuario que son accesibles en diferentes partes del sitio mientras la sesión está activa.
+
+Las sesiones en PHP funcionan de la siguiente manera:
+
+Inicio de la Sesión: Cuando un usuario visita por primera vez un sitio web, se inicia una sesión. Esto generalmente se hace automáticamente, pero puede ser iniciado manualmente utilizando session_start().
+
+Asignación de una ID de Sesión: A cada usuario se le asigna una ID de sesión única que se utiliza para identificar al usuario a lo largo de su visita en el sitio. Esta ID se almacena normalmente en una cookie en el navegador del usuario, aunque también puede ser pasada a través de URLs (generalmente no se recomienda por motivos de seguridad).
+
+Almacenamiento de Datos en la Sesión: Una vez que se inicia la sesión, se pueden almacenar datos específicos del usuario en variables de sesión. Estas variables se mantienen disponibles para todo el sitio hasta que se cierre la sesión o expire.
+
+Acceso a los Datos de la Sesión: Los datos almacenados en las variables de sesión pueden ser accedidos en cualquier página dentro del sitio web mientras la sesión esté activa. Esto permite recordar información sobre el usuario, como nombre de usuario, preferencias, carrito de compras, etc.
+
+Cierre de la Sesión: La sesión se cierra cuando el usuario cierra el navegador o se desconecta del sitio. Esto puede ser explícito mediante session_destroy() o cuando la sesión expira debido a inactividad (configurable mediante session.gc_maxlifetime en php.ini).

@@ -1,0 +1,8 @@
+Las cookies en PHP son pequeños archivos de texto que se almacenan en el navegador web del usuario. Estos archivos contienen información específica que puede ser utilizada por el servidor web para recordar ciertos datos sobre el usuario o la interacción del usuario con el sitio web.
+
+Las cookies se utilizan comúnmente para:
+
+Persistencia de sesiones: Mantener la sesión del usuario activa mientras navega por un sitio web.
+Almacenamiento de preferencias: Recordar las preferencias del usuario, como el idioma preferido, el tamaño de fuente, etc.
+Rastreo y análisis: Seguimiento de la actividad del usuario en el sitio web para análisis y marketing.
+Personalización: Ofrecer contenido personalizado basado en el historial de navegación del usuario.

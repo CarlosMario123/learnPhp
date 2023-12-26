@@ -1,0 +1,5 @@
+include y require
+ambas funciones sirven para añadir 
+otro ficheros a nuestro script php
+include: Si el archivo que intentas incluir no se encuentra, PHP emitirá un aviso (warning) pero seguirá ejecutando el script.
+require: Si el archivo que intentas requerir no se encuentra, PHP emitirá un error fatal (fatal error) y detendrá la ejecución del script.
